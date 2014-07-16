@@ -5,6 +5,7 @@ A simple example of using the HD Service for Pivotal CF. Implements a simple RES
 list the files in HFS.
 
 Setup/Deployment
+----------------
 
 The code assumes that there is an instance of the HD service named hd-demo. This can be changed
 by editing the service-name attribute of the hadoopConfiguration bean in 
@@ -21,13 +22,16 @@ can either change the name in the manifest, or specify a name for the push comma
 
 
 Access
+------
 
 Once the app is deployed and running, you can access the app at
 
-https://cf-demo.cfapps.yourdomain.com/ls
+https://cf-demo.*cfapps.yourdomain.com*/ls
 
 You can also specify path arguments, such as
 
-https://cf-demo.cfapps.yourdomain.com/ls?path=/
+https://cf-demo.*cfapps.yourdomain.com*/ls?path=/yarn
+
+
 
 
